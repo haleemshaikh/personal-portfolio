@@ -32,12 +32,13 @@ const WelcomePage = () => {
   const [loading, setLoading] = useState(false);
   const [visitors, setVisitors] = useState(0);
   const [reVisitors, setReVisitors] = useState(0);
+
   const handleDownload = async () => {
     setLoading(true);
     console.log(loca);
 
     try {
-      const response = await axios.get(`${loca}/MyResume/Naukri Resume`, {
+      const response = await axios.get(`${loca}/portfolio/download-resume`, {
         responseType: "blob",
       });
       console.log(response);
@@ -69,6 +70,7 @@ const WelcomePage = () => {
       setGotLoca(true);
     }
   }, [loca]);
+  
   useEffect(() => {
     if (gotLoca) {
       axios
