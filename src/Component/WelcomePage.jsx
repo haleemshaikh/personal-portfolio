@@ -60,8 +60,8 @@ const WelcomePage = () => {
   };
 
   const handleClick = () => {
-    const message = "Hello Emaz, I would like to chat!";
-    const url = `https://wa.me/9657116466?text=${encodeURIComponent(message)}`;
+    const message = "Hello Abdul Haleem, I would like to chat!";
+    const url = `https://wa.me/9766710945?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
   
@@ -70,7 +70,7 @@ const WelcomePage = () => {
       setGotLoca(true);
     }
   }, [loca]);
-  
+
   useEffect(() => {
     if (gotLoca) {
       axios
