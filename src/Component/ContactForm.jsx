@@ -22,6 +22,7 @@ export default function ContactForm() {
       ...prevData,
       [name]: value,
     }));
+    {console.log("formData: ", formData)}
   };
 
   const showAlertFn = (msg, type, show) => {
@@ -33,12 +34,13 @@ export default function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
+    console.log("loca: ", loca, formData);
     axios
       .post(`${loca}/portfolio/send-email`, formData, {
         headers: {
           "Content-Type": "application/json",
         },
-      })
+      }, console.log("This api is hit."))
       .then((res) => {
         showAlertFn("Message sent successfully", "success", true);
         setFormData({ name: "", email: "", message: "" });

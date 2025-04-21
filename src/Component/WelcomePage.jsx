@@ -10,7 +10,7 @@ import loomweb from "../images/Loomweb.png";
 import portfolio from "../images/portfolio_ah.png";
 import react from "../images/logo512.png";
 import js from "../images/js.png";
-import sboot from "../images/springboot.png"; 
+import sboot from "../images/springboot.png";
 import ex from "../images/ex.png";
 import mysql from "../images/sql.png";
 import tailwind from "../images/tailwind.png";
@@ -64,7 +64,7 @@ const WelcomePage = () => {
     const url = `https://wa.me/9766710945?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
-  
+
   useEffect(() => {
     if (loca) {
       setGotLoca(true);
@@ -200,24 +200,26 @@ const WelcomePage = () => {
               Cloudsmaya Services Private Limited
             </h3>
             <p className="text-gray-600 mb-4 text-lg">
-              Full Stack Developer | July-2023 - Present
+              Full Stack Developer | Sep-2023 - Aug-2024
             </p>
             <ul className="list-disc list-inside text-gray-700 text-lg">
               <li>
-                Managed e-commerce projects and led a development team of 5
-                members
+                Developed a Powerloom Industry Management System and led a team of 3 developers.
               </li>
               <li>
-                Implemented scalable solutions using React.js, Spring Boot, and
-                MySQL
+                Implemented scalable solutions using React.js, Spring Boot, and MySQL.
               </li>
               <li>
-                Improved website performance by 40% through optimization
-                techniques
+                Designed and developed RESTful APIs for seamless communication between front-end and back-end systems.
               </li>
               <li>
-                Collaborated with cross-functional teams to deliver high-quality
-                products
+                Optimized MySQL queries to enhance database performance and reduce data retrieval time.
+              </li>
+              <li>
+                Collaborated with designers to build responsive and user-friendly interfaces.
+              </li>
+              <li>
+                Worked with cross-functional teams to gather requirements and deliver high-quality software solutions.
               </li>
             </ul>
           </div>

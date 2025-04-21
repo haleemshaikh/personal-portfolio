@@ -1,7 +1,7 @@
 {
   "name": "abdulhaleem-portfolio-react",
   "version": "0.1.0",
-  "homepage": "https://haleemshaikh.github.io/personal-portfolio/",
+  "homepage": "https://haleemshaikh.github.io/personal-portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
