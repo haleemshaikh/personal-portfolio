@@ -98,7 +98,7 @@ const WelcomePage = () => {
                   sequence={[
                     "Welcome to my Portfolio",
                     1000, // wait 1s before replacing "Mice" with "Hamsters"
-                    "I'm Shaikh Abdul Haleem Israr",
+                    "I'm Shaikh Abdul Haleem",
                     2000,
                   ]}
                   wrapper="span"
@@ -155,13 +155,13 @@ const WelcomePage = () => {
               <div className="bg-gray-100 p-4 rounded-lg w-96 sm:w-full">
                 <h3 className="font-bold mb-2 text-xl">Experience</h3>
                 <p className="text-lg">
-                  1+ years in Full Stack Development at Cloudsmaya Services
+                  1 years in Full Stack Development at Cloudsmaya Services
                   Private Limited
                 </p>
               </div>
               <div className="bg-gray-100 p-4 rounded-lg w-96 sm:w-full">
                 <h3 className="font-bold mb-2 text-xl">Location</h3>
-                <p className="text-lg">Bhiwandi, India</p>
+                <p className="text-lg">Bhiwandi, Maharashtra, India</p>
               </div>
             </div>
           </div>
